@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans - serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("image/.jpg");
+}
+h1{
+    height:120px;
+    color:red;
+    font-family: "Microsoft YaHei";
+    top: 50%;  
+    left: 50%; 
+    text-transform: translate(-50%,-50%);
+    text-align: center;
+    background-image: url("beijing.jpg");
+    background-position:50% 40%;
+}
+
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+.carousel {
+    position: center;
+    height: 200px;
+}
+
+.carousel img {
+    position: flex;
+    width: 33%;
+    height: 90%;
+}
+
+.carousel img.active {
+    opacity: 1;
+}
+
+.cards {
+    width: 800px; margin: 0 auto;
+    display: flex;
+    justify-content: space - around;
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 400px;
+    text-align: center;
+}
+
+.card img {
+    position: flex;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.button{
+    text-align: center;
+}
+
