@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF - 8">
+    <title>test01</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!--
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+-->
+<body>  
+    <h1><br>中秋节</h1>
+    <h3 style="text-align: center;">导语</h3>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;中秋节，又称为月圆节，是中国传统文化中最重要的节日之一，通常在农历八月十五庆祝。这个节日的起源可以追溯到古代的祭月活动，古人相信月亮是丰收和团圆的象征，因此在这个时节，人们会举行各种庆祝活动，以表达对自然的敬畏和对家人的思念。
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;中秋节的习俗丰富多彩，其中最具代表性的就是赏月和吃月饼。每到这个时节，家家户户都会准备月饼，月饼的形状圆润，象征着团圆和美满。人们在赏月的同时，分享月饼，传递着对亲人和朋友的祝福。月饼的馅料多种多样，从传统的豆沙、莲蓉到现代的冰皮、巧克力，满足了不同人群的口味需求。
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;除了赏月和吃月饼，中秋节还有许多其他的习俗。例如，许多地方会举行灯会，孩子们提着五彩斑斓的灯笼，欢声笑语，增添了节日的喜庆气氛。在一些地区，人们还会进行诗歌吟诵，表达对月亮的赞美和对生活的感悟。
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;中秋节不仅是一个团圆的节日，更是一个传承文化的时刻。它承载着中华民族对家庭、亲情和团聚的深厚情感。在这个特殊的日子里，无论身在何处，人们都会通过各种方式与家人团聚，分享彼此的生活与情感。中秋节让我们在忙碌的生活中停下脚步，感受亲情的温暖，珍惜与家人共度的美好时光。
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;总之，中秋节是一个充满温情与文化底蕴的节日，它不仅让我们感受到团圆的喜悦，也让我们在月光下思考生活的意义，传承中华民族的优秀传统。
+        </p>
+    <div class="carousel">
+      <a href="https://baike.baidu.com/item/%E4%B8%AD%E7%A7%8B%E8%8A%82/128234"> 
+        <img src="zhongqiu1.jpg" alt="Slide 1">
+    </a>
+        <img id="myImage" src="zhongqiu3.jpg" alt="Slide 2">
+        <a href="https://baike.baidu.com/item/%E4%B8%AD%E7%A7%8B%E8%8A%82/128234">
+        <img src="zhongqiu2.jpg" alt="Slide 3">
+        </a>
+    </div>
+<div style="text-align: center;">
+<button onclick="changeImage()">切换图片</button>
+</div>
+<script>
+function changeImage(){
+     var image=document.getElementById("myImage");
+     if(image.src.match("zhongqiu3.jpg")){
+       image.src="zhongqiu4.jpg";
+     }else{
+      image.src="zhongqiu3.jpg";
+     }
+    }
+</script>
+    <section class="cards">
+        <div class="card">
+            <a href="https://baike.baidu.com/item/%E5%AB%A6%E5%A8%A5%E5%A5%94%E6%9C%88/106">
+            <img src="1.jpg" alt="Card 1">
+            </a>
+            <h4>中秋节典故:嫦娥奔月</h4>
+        </div>
+        <div class="card">
+            <a href="https://baike.baidu.com/item/%E7%8E%89%E5%85%94%E6%8D%A3%E8%8D%AF/9714111">               
+                <img src="2.jpg" alt="Card 2">
+            </a>
+            <h4>中秋节典故：玉兔捣药</h4>
+        </div>
+    </section>
+  <!--<script>
+        var box=document.getElementById("card");
+        box.onmousedown=function(){
+
+        }
+    </script>
+-->  
+</body>
+<footer>
+    <p>&copy;点击图片即可查阅相关内容.</p>
+</footer>
+</body>
+</html>
+
